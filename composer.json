@@ -9,7 +9,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "autoload":{
+    "autoload": {
         "psr-4": {
             "Felicianoi9\\Framework\\": "src"
         },
@@ -19,6 +19,10 @@
             "config/email.php"
         ]
     },
-
-    "require": {}
+    "require": {
+        "felicianoi9/dotenv": "v1.0.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
 }
