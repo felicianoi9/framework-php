@@ -1,0 +1,24 @@
+{
+    "name": "felicianoi9/novo-mvc",
+    "description": "My PHP Framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rogério Feliciano dos Santos",
+            "email": "felicianoi9@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload":{
+        "psr-4": {
+            "Felicianoi9\\Framework\\": "src"
+        },
+        "files": [
+            "config/app.php",
+            "config/database.php",
+            "config/email.php"
+        ]
+    },
+
+    "require": {}
+}
